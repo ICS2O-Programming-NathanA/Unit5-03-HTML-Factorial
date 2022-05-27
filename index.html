@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="User Input, with JavaScript">
+    <meta name="keywords" content="immaculata, ics2o">
+    <meta name="author" content="Ms Raffin">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+    <link rel="stylesheet" href="./css/style.css">
+		<!-- tittle -->
+    <title>Finding the Factorial of numbers</title>
+  </head>
+  <body>
+    <script src="./js/script.js"></script>
+		<!-- header -->
+    <h1>Finding the Factorial of numbers</h1>
+		<h3>This program will calculate the of the factorial of the number you give it:</h3>
+		<table>
+			<tr align = "center">
+				<td valign="top" align="right">					
+					<form action="javascript:displayNumbers()">								<!-- textbox for integer -->
+						<label for="user">Enter your a postive number:</label>
+						<input type="number" step="1" min="0" id="userNum"><br><br>		
+						
+						<input type="submit" value="Display Numbers">
+					</form>
+					
+				</td>
+				<td valign="top" align="left">
+					<img src="./images/factorial.png" alt="Numbers">
+				</td>
+			</tr>
+		</table>	
+		<!-- Create a space where the user information will be displayed -->
+		<div id="display-results">			
+		</div>
+	
+  </body>
+</html>
